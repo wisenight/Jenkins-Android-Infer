@@ -15,21 +15,22 @@ Install Git relative plugins
 Create a new Free-Style project
 
 In advenced options
-Check custom workspace
-Input workspace pace and name
+> Check custom workspace
+> Input workspace pace and name
 
 Input Git repository url and credentials
 
 In build field
-Add Run shell: 
-rm -rf infer-out/*.*
-Add another run shell:
-./gradlew clean
-infer -- ./gradlew {your_task_name} --stacktrace
-./gradlew {your_task_name}
+> Add Run shell: 
+> rm -rf infer-out/*.*
+
+> Add another run shell:
+> ./gradlew clean
+> infer -- ./gradlew {your_task_name} --stacktrace
+> ./gradlew {your_task_name}
 
 In post build filed
-Add package action:
-infer-out/*
+> Add package action:
+> infer-out/*
 
 
